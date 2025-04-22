@@ -22,7 +22,7 @@ Function uR5 {
     $k1 = ("SDR" + "kX0wz" + "NG1f")
     $k2 = ("RHk" + "0bDB9")
 
-    $payload = "ZmluIGEgc2FkaTlpIHJhayBuYWRp"  # Base64 for: "Top Secret data"
+    $payload = "ZmluIGEgc2FkaTlpIHJhayBuYWRp"  
 
     gE1 ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($payload))) @($p1,$p2,$k1,$k2)
 }
